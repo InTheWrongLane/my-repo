@@ -18,14 +18,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Javier Gallardo
+title: Titulo
 email: javiergallardo@linux.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   Javier Gallardo is ...
 baseurl: "/my-repo" # the subpath of your site, e.g. /blog
 url: "https://inthewronglane.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _InTheWrongLane
+
+linkedin_username: javiergallardovargas
 github_username:  InTheWrongLane
+twitter_username: _InTheWrongLane
+instagram_username: InTheWrongLane
+
+# Fields minima uses, but are not defaulted with the jekyll new command.
+# Author is the default for posts, the atom feed, and is used in the footer.
+author: Javier Gallardo
+
+# New fields not defaulted by jekyll-new with the minima theme
+# Add a copyright. A copyright symbol and year will be added automatically
+# copyright: Company Name, Inc.
+copyright: "InTheWrongLane"
+
+# title logo is a new field that, when used, displays a logo
+# instead of custom text. Ideally, image is 50px hight and takes up
+# minimal horizontal space. Tested with a new root "images" folder
+title-logo: /images/title-logo.jpeg
 
 # Build settings
 # Removed minima theme as it is now a regular theme. 
